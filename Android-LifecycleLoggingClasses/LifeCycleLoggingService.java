@@ -10,7 +10,7 @@ import android.util.Log;
  * lifecycle callbacks for logging various lifecycle events.
  */
 @SuppressWarnings("unused")
-public abstract class LifecycleLoggingService extends Service {
+public abstract class LifeCycleLoggingService extends Service {
     /**
      * Debugging tag used by the Android logger.
      */
