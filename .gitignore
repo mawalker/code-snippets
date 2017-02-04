@@ -108,6 +108,21 @@ proguard/
 *.kate-swp
 .DS_Store
 
+# archive formats, will need to force add if desired
+*.zip
+*.tar
+*.jar
+*.7zip
+*.7z
+*.gzip
+*.rar
+*.iso
+*.gz
+*.dmg
+*.war
+
+!**/gradle-wrapper.jar
+
 #############################################################################
 # Covers JetBrains IDEs: IntelliJ, RubyMine, PhpStorm, AppCode, PyCharm,
 #     CLion, Android Studio and Webstorm
